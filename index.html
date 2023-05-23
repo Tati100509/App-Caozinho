@@ -2,18 +2,19 @@
     <html lang="pt-br">
         <head>
             <title>
-                App meu cãozinho fofinho
+                App Meu Cãozinho Fofinho
             </title>
             <meta charset="UTF-8">
             <meta name="autor" content="Tatiane Ferreira do Nascimento">
             <meta name="assunto" content="Um app para quem ama cachorros e quer aprender sobre eles">
             <link rel="icon" href="/img/">
+            <link rel="stylesheet" href="./styles.css">
         </head>
         <body>
             <header>
                 <h1>App Meu Cãozinho Fofinho 🐶</h1>
                 <nav aria-label="navegação primária">
-                    <ul>
+                    <ul id="lista">
                         <li>
                             <a href="/fotosDeCachorros.html">Fotos de cachorros</a>
                         </li>
@@ -35,54 +36,62 @@
             <main>
                 <section>
             <h2>Fotos de cachorros</h2>
-            <a href="/fotosDeCachorros.html">Clique aqui para ver mais fotos de cachorros</a>
-            <img src="" alt="">
+            <p>Clique aqui para ver mais<a href="./fotosDeCachorros.html" target="_blank"> fotos de cachorros</a></p>
+            <a id="link-foto" href="./fotosDeCachorros.html" target="_blank">
+            <img id="primeira-foto" src="./assets/cão fofo 1.jpg" alt="">
+            </a>
+
             <hr>
              </section>
              <article id="fatos">
             <h2>Fatos sobre cachorros</h2>
-            <section id="amam">
+            <section id="caes-amam">
             <h3>Coisas que cachorros amam:</h3>
             <ul>
                 <li>Receber carinho e atenção</li>
-                <li>Comer algo gostoso de vez em quando</li>
+                <li>Morder chinelos</li>
                 <li>Passear em locais divertidos</li> 
         </ul>
         <figure>
-            <img src="/img/" alt="" width="" height="">
+            <img src="./assets/cão mordendo chinelo.jpg" alt="" width="" height="">
             <figcaption>Cachorros <em>amam</em>
-                cheirar</figcaption>
+                morder chinelos</figcaption>
         </figure>
         <aside>
             <details>
-            <summary>Por que alguns cachorros adoram?</summary>
-            <p> Isso acontece</p>
-            <p> <strong>Atenção:</strong></p>
+            <summary>Por que os cães amam morder chinelos?</summary>
+            <p>Um cão que não se exercita regularmente, acumula muita energia e por isso procura formas de aliviar sua tensão,
+             e uma delas é mordiscar os calçados em vista.</p>
+            <p><strong>Como fazer um cão para de comer chinelos?</strong></p>
+            <p><mark>Não presenteie seu cão com calçados antigos  e inutilizados</mark>ou mesmo brinquedos pets que tem a forma de um sapato.
+            Isso irá causar confusão mental;
+                No período de aprendizado, <mark>tire da vista de seu cão todo e qualquer tipo de sapato</mark>, mantenha-os sem acesso, em local fechado.
+            </p>
             </details>
         </aside>
         </section>
-        <section id="odeiam">
+        <section id="caes-odeiam">
         <h3>Top 3 coisas que cachorros odeiam:</h3>
         <ol>
-            <li>Fogos de artifícios</li>
+            <li>Fogos de artifício</li>
             <li>Som alto</li>
             <li>Excesso de banho</li>
         </ol>
         <figure>
-            <img src="/img" alt="" width="">
-            <figcaption>Cachorros <strong>odeiam</strong> fogos de artifícios</figcaption>
+            <img src="./assets/cão e fogos de artifício.jpg" alt="" width="">
+            <figcaption>Cachorros <strong>odeiam</strong> fogos de artifício</figcaption>
         </figure>
         </section>
         </article>
         <hr>
         <section id="colabore">
         <h2>Colabore com o app</h2>
-        <p>Responda essa pesquisa e nos ajude a entender mais sobre esses bichinhos.</p>
+        <p>Responda <a href="./formulario_canino.html" target="_blank">essa pesquisa</a> e nos ajude a entender mais sobre esses bichinhos.</p>
         <p>Se você quiser, pode anexar uma foto do seu cãozinho para fazer parte de nossa galeria.</p>
-        <p>Quero participar da pesquisa</p>
-    </section>
+        <p><a href="./formulario_canino.html" target="_blank">Quero participar da pesquisa</a></p>
+        </section>
         <hr>
-        <p>Voltar ao topo</p>
+        <p><a href="./index.html">Voltar ao topo</a></p>
     </main>
         <footer>
             <p>

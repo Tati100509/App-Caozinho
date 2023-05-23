@@ -9,22 +9,20 @@
     <meta name="autor" content="Tatiane Ferreira do Nascimento">
     <meta name="assunto" content="Formulário de pesquisa sobre cães">
     <link rel="icon" href="/img/">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <h1>Formulário Canino 🐶</h1>
         <nav aria-label="navegação primária">
-            <ul>
+            <ul id="lista">
                 <li>
                     <a href="/index.html">Home</a>
                 </li>
-
                 <li>
-                    <a href="#fatos">Fatos sobre cachorros</a>
+                    <a href="./fotosDeCachorros.html">Fotos de cachorros</a>
                 </li>
-
-
             </ul>
 
         </nav>
@@ -35,7 +33,7 @@
             <h2>Formulário Canino</h2>
             <p>Responda essa pesquisa e nos ajude a entender mais sobre esses bichinhos lindos.</p>
             <p>Se você quiser, pode anexar uma foto do seu cão para fazer parte da nossa galeria.</p>
-            <form action=""></form>
+            <form>
             <fieldset>
                 <legend>
                     Informações sobre o seu cão
@@ -76,13 +74,22 @@
                     <input type="checkbox" name="personalidade" id="amigavel">
                     <label for="amigavel">Amigável</label>
                 </p>
-
-
+             </fieldset>
+             <legend>Seu cão dentro da nossa galeria</legend>
+             <p>Anexe uma foto para nossa equipe adicionar na galeria</p>
+             <input type="file" name="anexar-foto" id="anexar-foto">
+             <p>
+                <label for="mensagem">Legenda da foto</label>
+             </p>
+             <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
             </fieldset>
-
-        </article>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Redefinir</button>
+        </form>
+    </article>
         <hr>
-        <p>Voltar ao topo</p>
+        <a href="./formulario_canino.html"><p>Voltar ao topo</p></a>
     </main>
     <footer>
         <p>
